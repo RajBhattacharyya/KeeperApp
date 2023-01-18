@@ -5,17 +5,23 @@ export default function CreateArea(props) {
         title: "",
         content: ""
     });
+
     function handleChange(event) {
         const {name, value} = event.target;
+
         setNote(prevNote => {
             return {
                 ...prevNote,
                 [name]: value
-            }
+            };
         });
-    };
+    }
     function submitNote(event) {
         props.onAdd(note);
+        setNote({
+            title: "",
+            content: ""
+        });
         event.preventDefault();
     }
     return (
