@@ -12,9 +12,9 @@
 
 ### 🏠 [Homepage](https://github.com/RajBhattacharyya/KeeperApp)
 
-## Try Online
+## Try Online 
 
-[Open Online](https://keeper-app-azure.vercel.app/)
+[Open Online](https://keeper-app-azure.vercel.app/) ↗
 
 ## Install
 
